@@ -1,4 +1,4 @@
 # AutoNanopore
 An automated adaptive and robust method to locate translocation events in solid-state nanopore sequencing signals.
 
-\textbf{It is still under construction, and will be available soon.}
+**It is still under construction, and will be available soon.**
