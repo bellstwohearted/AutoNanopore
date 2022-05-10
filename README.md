@@ -1,5 +1,5 @@
 # AutoNanopore
-An automated adaptive and robust method to locate translocation events in solid-state nanopore sequencing signals.
+**An automated adaptive and robust method to locate translocation events in solid-state nanopore sequencing signals.**
 
 *For simplicity, we will release a GUI tool. It is still under construction, and will be released once it is done.*
 
