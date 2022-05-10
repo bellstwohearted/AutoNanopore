@@ -1,8 +1,6 @@
 # AutoNanopore
 **An automated adaptive and robust method to locate translocation events in solid-state nanopore sequencing signals.**
 
-*For simplicity, we will release a GUI tool. It is still under construction, and will be released once it is done.*
-
 We performed the analysis by running the python scirpt, a sample abf file and the corresponding output are also given.
 
 `python AutoNanopore.py --file_path dataset/1.abf --output_path dataset/output`
@@ -41,3 +39,4 @@ There are five parameters:
 
 `--window_size`, the length (*ms* in time) of each segment, the default is `30`. In our practice, this is a suitable value, for the reason that smaller window sizes increase the computation complexity, while larger ones may lead to missing of events.
 
+*For simplicity, we will release a GUI tool. It is still under construction, and will be released once it is done. Please feel free to contact me if you have any questions.*
