@@ -7,7 +7,7 @@ We performed the analysis by running the python scirpt, a sample abf file and th
 python AutoNanopore.py --file_path dataset/1.abf --output_path dataset/output/
 ```
 
-If the program runs in good order, the output will be
+The output will be
 
 ```Bash
 Processing started
