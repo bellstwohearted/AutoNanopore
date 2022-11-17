@@ -7,7 +7,7 @@ The article has been published in *ACS Omega*. [Click here to read it](https://p
 
 ------------------
 
-We performed the analysis by running the python scirpt, a sample abf file and the corresponding output are also given.
+We performed the analysis by running the python scirpt in bash, a sample abf file and the corresponding output are also given.
 
 ```Python
 python AutoNanopore.py --file_path dataset/1.abf --output_path dataset/output/
