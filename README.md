@@ -40,4 +40,9 @@ There are five parameters:
 
 * `--window_size`, the length (*ms* in time) of each segment, the default is `30`. In our practice (300-second current traces), this is a suitable value, for the reason that smaller window sizes increase the computation complexity, while larger ones may lead to missing of events. We suggest that if the length of the current trace is small, this parameter should be smaller so that sufficient slices are generated, which favor the follow-up statistical analyses.
 
+If you want to process multiple abf files in one folder, try the sollowing command in bash
+```
+for i in path/to/folder/*.abf; do echo $i; python AutoNanopore.py --file_path $i --output_path output/path/; done 
+```
+
 *Please feel free to contact me if you have any questions.*
